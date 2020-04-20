@@ -1,0 +1,6 @@
+*~
+*.o
+tmp*
+a.out
+chibicc
+chibicc-gen*
