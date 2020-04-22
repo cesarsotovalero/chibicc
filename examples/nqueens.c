@@ -48,6 +48,7 @@ int main() {
   int board[100];
   for (int i = 0; i < 100; i++)
     board[i] = 0;
+  printf("Starting N-queens example...")	
   solve(board, 0);
   return 0;
 }
