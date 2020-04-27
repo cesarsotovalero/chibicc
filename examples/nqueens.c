@@ -1,7 +1,9 @@
+#include <stdio.h>
+
 // How to run:
 //
 // $ make
-// $ ./chibicc examples/nqueen.c > tmp.s
+// $ ./chibicc examples/nqueens.c > tmp.s
 // $ gcc -static -o tmp tmp.s
 // $ ./tmp
 
