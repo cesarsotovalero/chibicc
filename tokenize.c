@@ -183,6 +183,8 @@ static Token *read_string_literal(Token *cur, char *start) {
   int len = 0;
 
   for (;;) {
+    if (*p == '\0')
+      error_at(start, "unclosed string literal");
     if (*p == '"')
       break;
 
